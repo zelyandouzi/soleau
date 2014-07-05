@@ -1,4 +1,8 @@
 class Envelop < ActiveRecord::Base
-mount_uploader :picture, PictureUploader
 has_many :comments
+has_many :evidences
+belongs_to :user
+
+mount_uploader :picture, PictureUploader
+
 end

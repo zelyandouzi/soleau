@@ -4,7 +4,7 @@ class EnvelopsController < ApplicationController
   # GET /envelops
   # GET /envelops.json
   def index
-    @envelops = Envelop.all
+    @envelops = current_user.envelops
   end
 
   # GET /envelops/1

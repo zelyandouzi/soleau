@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :evidences
+
   devise_for :users
   resources :comments
 

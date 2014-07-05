@@ -9,6 +9,9 @@ gem 'carrierwave'
 gem 'mini_magick', '3.5.0'
 gem 'devise'
 gem 'gravtastic'
+gem 'paperclip'
+gem 'aws-sdk'
+gem 'attached'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  body: MyText
+  envelop_id: 1
+  encoding: MyString
+  attached: MyString
+
+two:
+  body: MyText
+  envelop_id: 1
+  encoding: MyString
+  attached: MyString

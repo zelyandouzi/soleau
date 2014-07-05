@@ -4,7 +4,13 @@
   <div class="row">
     <% group.compact.each do |envelop| %>
       <div class="span4">
-        <%= image_tag envelop.picture_url, :width => '100%' if envelop.picture.present?%>
+   <strong><%=
+	if envelop.picture.present?
+		image_tag envelop.picture_url, :width => '100%'
+	else
+		 "Image Not Available"
+	end
+%></Strong>
         <h4><%= link_to envelop.name, envelop %></h4>
         <%= envelop.description %>
       </div>

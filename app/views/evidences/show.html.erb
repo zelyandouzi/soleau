@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @evidence.body %>
+</p>
+
+<p>
+  <strong>Envelop:</strong>
+  <%= @evidence.envelop_id %>
+</p>
+
+<p>
+  <strong>Encoding:</strong>
+  <%= @evidence.encoding %>
+</p>
+
+<p>
+  <strong>Attached:</strong>
+  <%= @evidence.attached %>
+</p>
+
+<%= link_to 'Edit', edit_evidence_path(@evidence) %> |
+<%= link_to 'Back', evidences_path %>
